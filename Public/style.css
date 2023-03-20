@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+
+:root {
+    --stroke: #001858;
+    --highlight: #fef6e4; 
+    --paragraph: #172c66;
+    --tertiary: #f582ae;
+    --button_text: #001858;
+    --main: #f382ae;
+    --secondary: #8bd3dd;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--highlight);
+}
+.home_page
+{
+    font-family: 'Poppins', sans-serif;  
+}
+img{
+    height: 80px;
+    width: 180px;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+}
+.logo_class
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.logo_text
+{
+    margin-top: 40px;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.nav_bar
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 4%;
+    font-size: 1.5rem;
+}
+.links:hover{
+    border-bottom: var(--tertiary) solid 3px;
+    
+}
+
+.headings
+{
+    width: 42%;
+    display: flex;
+    justify-content: space-between; 
+    color: var(--stroke); 
+    font-weight:bold;
+    border-bottom: var(--stroke) solid 3px; 
+    position: absolute;
+    margin-left: 45%;
+    padding: 0px 5px;
+}
+.links
+{
+    text-decoration: none;
+    color: var(--stroke);
+}
+.home{
+    padding: 0px 0px;
+}
+
+.mac{
+    position: absolute;
+    top: 25%;
+    right: 50%;
+}
+.mac img {
+    width: 600px;
+    height: 500px;
+}
+
+.front_text {
+    position: absolute;
+    top:40%;
+    left: 7%;
+    width: 50%;
+    font-size: 2.5rem;
+    font-weight:bold;
+    font-family: poppins;
+    color: var(--stroke);
+}
+.auto-type {
+    color:var(--tertiary)
+}
+
+.signin button{
+    width: 90px;
+    height:40px;
+    border-radius: 10px;
+    font-family: poppins;
+    color: var(--stroke);
+    font-weight: bold;
+    font-size: 1rem;
+    background-color:D9D9D9;
+
+
+
+}
+
+.signup button{
+    width:90px;
+    height:40px;
+    border-radius:10px;
+    font-family: poppins;
+    color: var(--stroke);
+    font-weight: bold;
+    font-size: 1rem;
+    background-color:D9D9D9;
+
+}
+
+.signin {
+    position:absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.signup {
+    position: absolute;
+    top:50%;
+    left:12%;
+
+}

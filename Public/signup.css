@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+
+:root {
+    --stroke: #001858;
+    --highlight: #fef6e4; 
+    --paragraph: #172c66;
+    --tertiary: #f582ae;
+    --button_text: #001858;
+    --main: #f382ae;
+    --secondary: #8bd3dd;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--highlight);
+}
+.home_page
+{
+    font-family: 'Poppins', sans-serif;  
+}
+img{
+    height: 80px;
+    width: 180px;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+}
+.logo_class
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.logo_text
+{
+    margin-top: 40px;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.nav_bar
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 4%;
+    font-size: 1.5rem;
+}
+.links:hover{
+    border-bottom: var(--tertiary) solid 3px;
+    
+}
+
+.headings
+{
+    width: 42%;
+    display: flex;
+    justify-content: space-between; 
+    color: var(--stroke); 
+    font-weight:bold;
+    border-bottom: var(--stroke) solid 3px; 
+    position: absolute;
+    margin-left: 45%;
+    padding: 0px 5px;
+}
+.links
+{
+    text-decoration: none;
+    color: var(--stroke);
+}
+.home{
+    padding: 0px 0px;
+}
+
+.signup{
+    position:absolute;
+    top:20%;
+    left: 35%;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    background-color:#8bd4ddd6;
+
+}
+
+form input {
+    width: 300px;
+    height:35px;
+    border-style: none;
+    border-radius: 6px;
+
+
+}
+
+.signup h1 {
+    margin-top: 40px;
+
+    font-family: poppins;
+    color:var(--stroke);
+    
+
+}
+
+.signup form .name {
+    margin-top:20px;
+    
+
+}
+
+.signup form .email {
+    margin-top:15px;
+    
+
+}
+
+.signup form .pass {
+    margin-top:25px;
+    
+
+}
+
+ .pic1 {
+    position:absolute;
+    top:60%;
+
+    left:60%;
+
+    
+ }
+
+ .pic1 img{
+    width:500px;
+    height: 300px;
+
+ }
+
+ .pic2{
+    position:absolute;
+    top:8%;
+    left:-10%;
+ }
+
+ .pic2 img{
+    width: 800px;
+    height:650px;
+ }
+ .pic3{
+    position:absolute;
+    top: 60%;
+    left:-5%;
+ }
+
+ .pic3 img{
+    width:500px;
+    height:500px;
+ }
+
+
+ body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+ }
+
+
+ .pic4 {
+    position: absolute;
+    top:10%;
+    right:40%;
+
+ }
+
+ .pic4 img{
+    width: 600px;
+    height: 450px;
+ }
+
+ .button {
+    text-align: center;
+    width:100px;
+    height:30px;
+    background-color: var(--main);
+    color: var(--button_text);
+    position: relative;
+    left:35%;
+    top:10%;
+    border-radius: 6px;
+    border-color: var(--button_text);
+    border-width: 5px;
+
+ }
+
+ .button a {
+    font-family: poppins;
+    font-weight: bold;
+    text-decoration: none;
+    color:var(--button_text)
+ }
+
+ 

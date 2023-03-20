@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --stroke: #001858;
+            --highlight: #fef6e4; 
+            --paragraph: #172c66;
+            --tertiary: #f582ae;
+            --button_text: #001858;
+            --main: #f382ae;
+            --secondary: #8bd3dd;
+            --button: #F3D2C1;
+            --hover_btn: #2C469F;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: var(--highlight);
+        }
+        .home_page
+        {
+            font-family: 'Poppins', sans-serif;  
+        }
+        img{
+            height: 80px;
+            width: 180px;
+            position: absolute;
+            top: 0;
+            margin-top: 10px;
+        }
+        .logo_class
+        {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .logo_text
+        {
+            margin-top: 40px;
+            font-size: 1rem;
+            margin-left: 10px;
+        }
+        .nav_bar
+        {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 6%;
+            margin-right: 6%;
+            margin-top: 4%;
+            font-size: 1.2rem;
+        }
+        .links:hover{
+            border-bottom: var(--tertiary) solid 3px;
+            
+        }
+
+        .headings
+        {
+            width: 42%;
+            display: flex;
+            justify-content: space-between; 
+            color: var(--stroke); 
+            font-weight:bold;
+            border-bottom: var(--stroke) solid 3px; 
+            position: absolute;
+            margin-left: 45%;
+            padding: 0px 5px;
+        }
+        .links
+        {
+            text-decoration: none;
+            color: var(--stroke);
+        }
+        .home{
+            padding: 0px 0px;
+        }
+        .some_text
+        {
+            font-size: 3rem;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            margin-top: 5%;
+        }
+        .join
+        {
+            color: var(--main)
+        }
+        .qr_code
+        {
+            background-color: var(--button);
+            color: var(--stroke);
+            font-size: 2rem;
+            font-weight: bold;
+            width: 10%;
+            text-align: center;
+            padding: 4px 0px;
+            border-radius: 6px;
+            margin: 0px auto;
+            margin-top: 30px;
+        }
+        .already_joined
+        {
+            width: 70%;
+            font-size: 1.2rem;
+            margin: 60px auto;
+            background-color: var(--button);
+            height: 200px;
+            border-radius: 6px;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+        .space
+        {
+            padding-left: 10px;
+        }
+
+        .line 
+        {
+            margin-top: 10px;
+            height: 1px;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="home_page">
+        <div class="nav_bar">
+            <div class="logo_class">
+                <div class="logo"><img src="logo_image.png"> </div>
+                <div class="logo_text">
+                    Quizzes on the go
+                </div>
+            </div>
+                <div class="headings">
+                    <div class="home"><a href="3" class="links">Home</a></div>
+                    <div class="home"><a href="3" class="links">Lets Quiz</a></div>
+                    <div class="home"><a href="3" class="links">Features</a></div>
+                    <div class="home"><a href="3" class="links"> Contact Us</a></div>   
+                </div>
+            
+        </div>
+        <div class="page_text">
+            
+        </div>
+        <div class="code">
+            <div class="some_text"> 
+                Enter the code to 
+                <span class="join"> join </span>
+                the Quiz
+            </div>
+        </div>
+        <div class="qr_code">
+            BBC69
+        </div>
+        <div class="already_joined">
+            <div class="space">Already joined </div>
+            <div class="line">
+
+            </div>
+        </div>
+        
+
+        
+    </div>
+
+    <script>
+
+    </script>
+
+</body>
+</html>

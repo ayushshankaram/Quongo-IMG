@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --stroke: #001858;
+            --highlight: #fef6e4; 
+            --paragraph: #172c66;
+            --tertiary: #f582ae;
+            --button_text: #001858;
+            --main: #f382ae;
+            --secondary: #8bd3dd;
+            --button: #F3D2C1;
+            --hover_btn: #2C469F;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: var(--highlight);
+        }
+        .home_page
+        {
+            font-family: 'Poppins', sans-serif;  
+        }
+        img{
+            height: 80px;
+            width: 180px;
+            position: absolute;
+            top: 0;
+            margin-top: 10px;
+        }
+        .logo_class
+        {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .logo_text
+        {
+            margin-top: 40px;
+            font-size: 1rem;
+            margin-left: 10px;
+        }
+        .nav_bar
+        {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 6%;
+            margin-right: 6%;
+            margin-top: 4%;
+            font-size: 1.2rem;
+        }
+        .links:hover{
+            border-bottom: var(--tertiary) solid 3px;
+            
+        }
+
+        .headings
+        {
+            width: 42%;
+            display: flex;
+            justify-content: space-between; 
+            color: var(--stroke); 
+            font-weight:bold;
+            border-bottom: var(--stroke) solid 3px; 
+            position: absolute;
+            margin-left: 45%;
+            padding: 0px 5px;
+        }
+        .links
+        {
+            text-decoration: none;
+            color: var(--stroke);
+        }
+        .home{
+            padding: 0px 0px;
+        }
+        
+        .q_box
+        {
+            width: 70%;
+            font-size: 1.2rem;
+            margin: 60px auto;
+            background-color: var(--button);
+
+            border-radius: 6px;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+        .time
+        {
+            /* padding-right: 20px; */
+            text-align: center;
+            background-color: var(--main);
+            width: 12%;
+            padding: 6px 2px;
+            margin-left: 85%;
+            border-radius: 6px;
+        }
+
+        .line_2
+        {
+            margin-top: 10px;
+            height: 1px;
+            background-color: black;
+        }
+        .que
+        {
+            font-size: 1.4rem;
+        }
+        .que{
+            margin-left: 20px;
+            padding: 40px 10px;
+        }
+        .answers
+        {
+            margin-top: 20px;
+        }
+        .options
+        {
+            margin: 12px 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="home_page">
+        <div class="nav_bar">
+            <div class="logo_class">
+                <div class="logo"><img src="logo_image.png"> </div>
+                <div class="logo_text">
+                    Quizzes on the go
+                </div>
+            </div>
+                <div class="headings">
+                    <div class="home"><a href="/" class="links">Home</a></div>
+                    <div class="home"><a href="/quizzes" class="links">Lets Quiz</a></div>
+                    <div class="home"><a href="/" class="links">Features</a></div>
+                    <div class="home"><a href="/contact_us" class="links"> Contact Us</a></div>    
+                </div>
+            
+        </div>
+        
+        
+        <div class="q_box">
+            <div class="time"> Time : 20s </div>
+            <div class="line_2"></div>
+            <div class="que">
+                Q1. Founders of Fampay are from which Institute?
+                <form action="" class="answers">
+                <div class="op"><input type="radio" name="answer" value="iit roorkee" class="options"> IIT Roorkee</div>
+                <div class="op"><input type="radio" name="answer" value="iit kanpur" class="options"> IIT Kanpur</div>
+                <div class="op"><input type="radio" name="answer" value="iit delhi" class="options"> IIT Delhi</div>
+                <div class="op"><input type="radio" name="answer" value="iit bombay" class="options"> IIT Bombay</div>
+                </form>
+            </div>
+        </div>
+        
+
+        
+    </div>
+
+    <script>
+
+    </script>
+
+</body>
+</html>

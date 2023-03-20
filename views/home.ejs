@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --stroke: #001858;
+            --highlight: #fef6e4; 
+            --paragraph: #172c66;
+            --tertiary: #f582ae;
+            --button_text: #001858;
+            --main: #f382ae;
+            --secondary: #8bd3dd;
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: var(--highlight);
+        }
+        .home_page
+        {
+            font-family: 'Poppins', sans-serif;  
+        }
+        img{
+            height: 80px;
+            width: 180px;
+            position: absolute;
+            top: 0;
+            margin-top: 10px;
+        }
+        .logo_class
+        {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .logo_text
+        {
+            margin-top: 40px;
+            font-size: 1rem;
+            margin-left: 10px;
+        }
+        .nav_bar
+        {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 6%;
+            margin-right: 6%;
+            margin-top: 4%;
+            font-size: 1.2rem;
+        }
+        .links:hover{
+            border-bottom: var(--tertiary) solid 3px;
+            
+        }
+
+        .headings
+        {
+            width: 42%;
+            display: flex;
+            justify-content: space-between; 
+            color: var(--stroke); 
+            font-weight:bold;
+            border-bottom: var(--stroke) solid 3px; 
+            position: absolute;
+            margin-left: 45%;
+            padding: 0px 5px;
+        }
+        .links
+        {
+            text-decoration: none;
+            color: var(--stroke);
+        }
+        .home{
+            padding: 0px 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="home_page">
+        <div class="nav_bar">
+            <div class="logo_class">
+                <div class="logo"><img src="logo_image.png"> </div>
+                <div class="logo_text">
+                    Quizzes on the go
+                </div>
+            </div>
+                <div class="headings">
+                    <div class="home"><a href="3" class="links">Home</a></div>
+                    <div class="home"><a href="3" class="links">Lets Quiz</a></div>
+                    <div class="home"><a href="3" class="links">Features</a></div>
+                    <div class="home"><a href="3" class="links"> Contact Us</a></div>   
+                </div>
+            
+        </div>
+        <div class="page_text">
+            
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
